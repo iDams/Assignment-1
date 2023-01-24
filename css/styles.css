@@ -1,0 +1,145 @@
+/* Style the body */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  margin: 0;
+
+  background: #f1f1f1;
+}
+
+/* Header/Logo Title */
+header {
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 10px;
+  padding-top: 1px;
+  padding-right: 10px;
+  padding-bottom: 1px;
+  text-align: end;
+  background: #1abc9c;
+  color: white;
+  font-size: 15px;
+}
+#email {
+  text-decoration: none;
+  color: white;
+}
+
+ol li {
+  list-style-type: none;
+  padding-bottom: 0px;
+}
+
+/* Page Content */
+
+section {
+  margin-top: 50px;
+}
+main {
+  padding: 20px;
+  margin-left: 250px;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #2a2f33;
+  text-align: left;
+}
+
+.circular {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.circular img {
+  width: 100%;
+  height: auto;
+}
+.leftImage {
+  position: absolute;
+  top: -4%;
+  transform: translate(-50%, -50%);
+}
+
+#verticalLine {
+  border-left: 2px solid gainsboro;
+  position: absolute;
+}
+article {
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+
+/* The sidebar menu */
+aside {
+  position: absolute;
+  padding: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  color: #2a2f33;
+  margin-bottom: 100px;
+}
+
+#sideTitle {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #1abc9c;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 10px;
+  padding-top: px;
+}
+
+
+
+#container1{
+  display:flex;
+  margin-right: 100px;
+}
+
+
+#container2{
+  margin-right: 100px;
+}
+
+#imageChile {
+  position: absolute;
+}
+
+#imageYoutube {
+  width: 10%;
+  height: auto;
+}
+
+.hiNoSpace {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Footer */
+footer {
+  border-top-right-radius: 200px;
+  border-top-left-radius: 30px;
+  background: #2e8bc0;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 45px;
+  width: 100%;
+}
+
+.contentFooter {
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
