@@ -19,11 +19,14 @@ header {
   color: white;
   font-size: 15px;
 }
+
+/* Email no style */
 #email {
   text-decoration: none;
   color: white;
 }
 
+/* No style 1,2,3 */
 ol li {
   list-style-type: none;
   padding-bottom: 0px;
@@ -45,6 +48,7 @@ main {
   text-align: left;
 }
 
+/* Circle image */
 .circular {
   width: 150px;
   height: 150px;
@@ -60,11 +64,14 @@ main {
   top: -4%;
   transform: translate(-50%, -50%);
 }
-
+/* Vertical line color */
 #verticalLine {
   border-left: 2px solid gainsboro;
   position: absolute;
 }
+
+
+/* The article position */
 article {
   padding: 20px;
   margin-left: 20px;
@@ -83,6 +90,7 @@ aside {
   margin-bottom: 100px;
 }
 
+/* Sidebar links color and style */
 #sideTitle {
   font-size: 16px;
   line-height: 1.5;
@@ -98,25 +106,29 @@ ul {
 }
 
 
+#minecraftIcon {
+  width: 20px;
+  height: auto;
+}
 
+/* Container for the image and content about Chile */
 #container1{
   display:flex;
   margin-right: 100px;
 }
-
-
 #container2{
   margin-right: 100px;
 }
-
 #imageChile {
   position: absolute;
 }
 
+/* Image size Youtube Logo */
 #imageYoutube {
   width: 10%;
   height: auto;
 }
+
 
 .hiNoSpace {
   padding: 0px;
@@ -135,6 +147,7 @@ footer {
   width: 100%;
 }
 
+/* Footer text color and style */
 .contentFooter {
   text-align: center;
   color: white;
