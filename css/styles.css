@@ -13,9 +13,7 @@ body {
   overflow: auto;
   /* border: 1px solid black; */
   margin-top: 100px;
-
 }
-
 
 /* Header/Logo Title */
 .nav {
@@ -27,11 +25,10 @@ body {
   padding-right: 10px;
   padding-bottom: 1px;
   text-align: end;
-  background: #0A2647;
+  background: #0a2647;
   color: white;
   font-size: 14px;
 }
-
 
 .logo {
   margin-left: 5px;
@@ -41,8 +38,6 @@ body {
   width: 180px;
   height: auto;
 }
-
-
 
 /* Me image */
 .me {
@@ -59,16 +54,13 @@ body {
 .me img {
   width: 100%;
   height: auto;
-  
 }
 
 .me:hover {
   width: 170px;
   height: 170px;
   transition: 0.5s;
-
 }
-
 
 .card {
   position: fixed;
@@ -82,12 +74,10 @@ body {
   padding: 20px;
   position: absolute;
   cursor: pointer;
-  
 }
 
 .card:hover {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-  
 }
 .card .card-title {
   font-size: 20px;
@@ -95,9 +85,7 @@ body {
   margin-bottom: 10px;
   margin-top: 1px;
   color: #144272;
-
 }
-
 
 #idstudent {
   font-size: 13px;
@@ -110,16 +98,7 @@ body {
 #email {
   text-decoration: none;
   color: #567189;
-
 }
-
-
-
-
-
-
-
-
 
 #liLeft {
   float: left;
@@ -130,21 +109,12 @@ li a {
   text-decoration: none;
   padding: 15px 12px;
   display: block;
-
 }
 
 li a:hover {
   background-color: #144272;
   border-radius: 3px 3px 3px 3px;
   transition: 0.5s;
-}
-
-
-
-/* No style 1,2,3 */
-ol li {
-  list-style-type: none;
-  padding-bottom: 0px;
 }
 
 /* Page Content */
@@ -164,8 +134,6 @@ main {
   text-align: left;
 }
 
-
-
 /* The article position */
 article {
   padding: 50px;
@@ -182,8 +150,6 @@ aside {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #2a2f33;
-
-
 }
 
 /* Sidebar links color and style */
@@ -201,12 +167,9 @@ ul {
   padding-top: px;
 }
 
-
-
-
 /* Footer */
 footer {
-  background: #2C74B3;
+  background: #2c74b3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -218,12 +181,13 @@ footer {
 /* Footer text color and style */
 .contentFooter {
   padding-top: 1px;
-  color: #ECF9FF;
+  color: #ecf9ff;
   font-size: 13px;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 
+/* The box info */
 
 .box {
   width: 400px;
@@ -232,7 +196,6 @@ footer {
   float: left;
   text-align: center;
   padding-top: 70px;
-
 }
 
 .box p {
@@ -258,7 +221,6 @@ footer {
   float: left;
   text-align: center;
   padding-top: 0px;
-
 }
 
 #title {
