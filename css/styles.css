@@ -188,14 +188,19 @@ footer {
 }
 
 /* The box info */
-
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 .box {
-  width: 400px;
-  height: 300px;
+  width: 450px;
+  height: 350px;
   margin: 40px;
   float: left;
   text-align: center;
   padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .box p {
@@ -214,14 +219,6 @@ footer {
   color: #115571;
 }
 
-.box2 {
-  width: 600px;
-  height: 300px;
-  margin: 0px;
-  float: left;
-  text-align: center;
-  padding-top: 0px;
-}
 
 #title {
   font-size: 20px;
@@ -236,3 +233,4 @@ footer {
   margin-bottom: 10px;
   color: #567189;
 }
+
